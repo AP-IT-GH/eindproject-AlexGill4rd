@@ -24792,7 +24792,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1227628905039264891, guid: bdedc0f4074ecd2419dffb7963f9f5d7, type: 3}
       propertyPath: m_Name
-      value: DUST_RED Variant
+      value: DUST_RED
       objectReference: {fileID: 0}
     - target: {fileID: 4283895253775014009, guid: bdedc0f4074ecd2419dffb7963f9f5d7, type: 3}
       propertyPath: m_LocalPosition.x
