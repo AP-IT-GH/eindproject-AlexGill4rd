@@ -16,6 +16,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 7ee974d7bd86785468d61a6079e863ba, type: 2}
+    - target: {fileID: 1798724590443714687, guid: 2dc026f062e3b4948a711bd023ff454d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7ee974d7bd86785468d61a6079e863ba, type: 2}
     - target: {fileID: 2122249513882061551, guid: 2dc026f062e3b4948a711bd023ff454d, type: 3}
       propertyPath: m_Name
       value: DUST_GREEN Variant
@@ -28,17 +32,21 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 7ee974d7bd86785468d61a6079e863ba, type: 2}
+    - target: {fileID: 3630100653110807596, guid: 2dc026f062e3b4948a711bd023ff454d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7ee974d7bd86785468d61a6079e863ba, type: 2}
     - target: {fileID: 3965880464284036845, guid: 2dc026f062e3b4948a711bd023ff454d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 47.132
+      value: 47.244457
       objectReference: {fileID: 0}
     - target: {fileID: 3965880464284036845, guid: 2dc026f062e3b4948a711bd023ff454d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.1000004
+      value: 4.15
       objectReference: {fileID: 0}
     - target: {fileID: 3965880464284036845, guid: 2dc026f062e3b4948a711bd023ff454d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -90.28601
+      value: -90.13518
       objectReference: {fileID: 0}
     - target: {fileID: 3965880464284036845, guid: 2dc026f062e3b4948a711bd023ff454d, type: 3}
       propertyPath: m_LocalRotation.w
