@@ -8,6 +8,9 @@ TagManager:
   - SpawnZoneNormal
   - SpawnZoneGreen
   - Anchor
+  - DustNormal
+  - DustGreen
+  - DustRed
   layers:
   - Default
   - TransparentFX
