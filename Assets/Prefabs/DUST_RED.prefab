@@ -24,6 +24,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DUST_RED
       objectReference: {fileID: 0}
+    - target: {fileID: 2122249513882061551, guid: 2dc026f062e3b4948a711bd023ff454d, type: 3}
+      propertyPath: m_TagString
+      value: DustRed
+      objectReference: {fileID: 0}
     - target: {fileID: 2799663986757308733, guid: 2dc026f062e3b4948a711bd023ff454d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
