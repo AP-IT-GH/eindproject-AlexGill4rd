@@ -80790,7 +80790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointsPerDust: 1
-  vacuumSound: {fileID: 8300000, guid: 7065d91f60cbf1148b372284d3599655, type: 3}
+  vacuumSound: {fileID: 8300000, guid: 07538522e3c5aa9488c81c43e6dfd76b, type: 3}
 --- !u!1001 &4134565740666477842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80914,6 +80914,14 @@ PrefabInstance:
     - target: {fileID: 1493421982280369004, guid: 5c9dac9b17cb7f64e933ed3335eeadb1, type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2899889954026657891, guid: 5c9dac9b17cb7f64e933ed3335eeadb1, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 07538522e3c5aa9488c81c43e6dfd76b, type: 3}
+    - target: {fileID: 2899889954026657891, guid: 5c9dac9b17cb7f64e933ed3335eeadb1, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5484645932977576803, guid: 5c9dac9b17cb7f64e933ed3335eeadb1, type: 3}
       propertyPath: m_Name
