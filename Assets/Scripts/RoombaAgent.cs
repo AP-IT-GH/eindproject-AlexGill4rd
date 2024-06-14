@@ -1,61 +1,72 @@
+using System.Collections.Generic;
 using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
 using UnityEngine;
 
 public class RoombaAgent : Agent
-
 {
-    // Start is called before the first frame update
-
-    public Transform Target;
     public float speedMultiplier = 0.1f;
-    public float rotationMultiplier = 5;
+    public float rotationMultiplier = 5f;
+    public Vector3 startingPosition; // Define starting position in the Unity Editor
 
-    void Start()
+    private List<GameObject> dustObjects;
+
+    private void Start()
     {
+        // Initialize agent at the starting position
+        this.transform.localPosition = startingPosition;
 
+        // Find all dust objects and store them in a list
+        dustObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("Dust"));
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-
+        // Any update logic if needed
     }
+
     public override void OnEpisodeBegin()
     {
+        this.transform.localPosition = startingPosition;
+        foreach (var dust in dustObjects)
+        {
+            dust.SetActive(true);
+        }
     }
+
     public override void CollectObservations(VectorSensor sensor)
     {
-        //sensor.AddObservation(Target.localPosition);
+        // Collect observations
         sensor.AddObservation(this.transform.localPosition);
-
+        sensor.AddObservation(this.transform.forward);
     }
+
     public override void OnActionReceived(ActionBuffers actions)
     {
-        // Acties, size = 2
-        Vector3 controlSignal = Vector3.zero; controlSignal.z = actions.ContinuousActions[0]; transform.Translate(controlSignal * speedMultiplier);
+        // Process actions
+        float forwardAmount = actions.ContinuousActions[0];
+        float turnAmount = actions.ContinuousActions[1];
 
+        // Move forward
+        Vector3 controlSignal = transform.forward * forwardAmount;
+        transform.Translate(controlSignal * speedMultiplier, Space.World);
 
-        transform.Rotate(0.0f, rotationMultiplier * actions.ContinuousActions[1], 0.0f);
+        // Rotate
+        transform.Rotate(Vector3.up, turnAmount * rotationMultiplier);
 
-        // Beloningen
-        float distanceToTarget = Vector3.Distance(this.transform.localPosition, Target.localPosition);
+        // Rewards and penalties
+        // Penalize small amount for each step to encourage efficiency
+        AddReward(-0.001f);
 
-        // target bereikt
-        if (distanceToTarget < 1.42f)
+        // Check for falling off platform
+        if (this.transform.localPosition.y < 0)
         {
-            SetReward(1.0f);
+            SetReward(-1.0f);
             EndEpisode();
         }
-
-        // Van het platform gevallen?
-        else if (this.transform.localPosition.y < 0)
-        {
-            EndEpisode();
-        }
-
     }
+
     public override void Heuristic(in ActionBuffers actionsOut)
     {
         var continuousActionsOut = actionsOut.ContinuousActions;
@@ -63,5 +74,21 @@ public class RoombaAgent : Agent
         continuousActionsOut[1] = Input.GetAxis("Horizontal");
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Dust"))
+        {
+            other.gameObject.SetActive(false);
+            SetReward(0.01f);
+        }
+    }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (!collision.gameObject.CompareTag("Ground"))
+        {
+            SetReward(-0.5f);
+            EndEpisode();
+        }
+    }
 }
