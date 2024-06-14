@@ -133,10 +133,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (17)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5
       objectReference: {fileID: 0}
@@ -199,10 +195,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (35)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 33
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5
       objectReference: {fileID: 0}
@@ -263,10 +255,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1298,10 +1286,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (59)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 57
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
       objectReference: {fileID: 0}
@@ -1717,10 +1701,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2748,10 +2728,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (36)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4093,10 +4069,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (28)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 28
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
@@ -5390,10 +5362,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (41)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 39
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5
       objectReference: {fileID: 0}
@@ -5961,10 +5929,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (52)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7222,10 +7186,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (25)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
@@ -7286,10 +7246,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (29)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7472,10 +7428,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (19)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
@@ -7570,10 +7522,6 @@ PrefabInstance:
     - target: {fileID: 421252560260396309, guid: a210596d183602d4f9abc956ba791b9e, type: 3}
       propertyPath: m_Name
       value: Int_apt_03_Floor_02 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 421252560260396522, guid: a210596d183602d4f9abc956ba791b9e, type: 3}
-      propertyPath: m_RootOrder
-      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 421252560260396522, guid: a210596d183602d4f9abc956ba791b9e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8066,10 +8014,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (40)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 38
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
@@ -8375,10 +8319,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9146,6 +9086,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1586905002788926082, guid: 4850c514825283749bdc56155d7559a9, type: 3}
   m_PrefabInstance: {fileID: 304776608}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &305025723
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1535680146905219573, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_Name
+      value: DustParticle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f341b512e184c934e909c673a54f4227, type: 3}
 --- !u!1001 &311212635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10590,10 +10587,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (61)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 59
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
       objectReference: {fileID: 0}
@@ -10722,10 +10715,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (56)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 54
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
       objectReference: {fileID: 0}
@@ -10786,10 +10775,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (34)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11097,10 +11082,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (60)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11678,10 +11659,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (58)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 56
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
       objectReference: {fileID: 0}
@@ -11797,6 +11774,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5008556356809125375, guid: f01b8dde2f2266c4a9c87acaa4ed6003, type: 3}
   m_PrefabInstance: {fileID: 365666330}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &367110260
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1535680146905219573, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_Name
+      value: DustParticle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 42.279945
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.109
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -97.25362
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403636246430743903, guid: f341b512e184c934e909c673a54f4227, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f341b512e184c934e909c673a54f4227, type: 3}
 --- !u!1001 &368328266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12185,10 +12219,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (42)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12866,9 +12896,9 @@ MonoBehaviour:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
-  Target: {fileID: 1434380926}
   speedMultiplier: 0.1
   rotationMultiplier: 5
+  startingPosition: {x: 46.503, y: 4.292, z: -98.509}
 --- !u!114 &397149027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13014,16 +13044,16 @@ MonoBehaviour:
   m_SensorName: RayPerceptionSensor
   m_DetectableTags: []
   m_RaysPerDirection: 10
-  m_MaxRayDegrees: 90
+  m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.16
-  m_RayLength: 60
+  m_RayLength: 2
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
-  m_StartVerticalOffset: 0
+  m_StartVerticalOffset: -0.33
   m_EndVerticalOffset: 0
 --- !u!54 &397149034
 Rigidbody:
@@ -13050,7 +13080,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!1001 &401225320
 PrefabInstance:
@@ -14053,10 +14083,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (18)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5
       objectReference: {fileID: 0}
@@ -14748,10 +14774,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (27)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 27
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5
       objectReference: {fileID: 0}
@@ -14878,10 +14900,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15482,10 +15500,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19667,10 +19681,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (43)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 41
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
@@ -20562,10 +20572,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (44)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24320,10 +24326,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (15)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5
       objectReference: {fileID: 0}
@@ -24817,10 +24819,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (46)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26173,10 +26171,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (14)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5
       objectReference: {fileID: 0}
@@ -27341,10 +27335,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (23)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 23
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5
       objectReference: {fileID: 0}
@@ -27949,10 +27939,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (64)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29708,71 +29694,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5008556356809125375, guid: f01b8dde2f2266c4a9c87acaa4ed6003, type: 3}
   m_PrefabInstance: {fileID: 955403661}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &958987693
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3142624649493231585, guid: 1a5f44753734a534d81a287790f8ef58, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3142624649493231585, guid: 1a5f44753734a534d81a287790f8ef58, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 4.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 3142624649493231585, guid: 1a5f44753734a534d81a287790f8ef58, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 42.734
-      objectReference: {fileID: 0}
-    - target: {fileID: 3142624649493231585, guid: 1a5f44753734a534d81a287790f8ef58, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.1000004
-      objectReference: {fileID: 0}
-    - target: {fileID: 3142624649493231585, guid: 1a5f44753734a534d81a287790f8ef58, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -88.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 3142624649493231585, guid: 1a5f44753734a534d81a287790f8ef58, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3142624649493231585, guid: 1a5f44753734a534d81a287790f8ef58, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3142624649493231585, guid: 1a5f44753734a534d81a287790f8ef58, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3142624649493231585, guid: 1a5f44753734a534d81a287790f8ef58, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3142624649493231585, guid: 1a5f44753734a534d81a287790f8ef58, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3142624649493231585, guid: 1a5f44753734a534d81a287790f8ef58, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3142624649493231585, guid: 1a5f44753734a534d81a287790f8ef58, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4293038513279307095, guid: 1a5f44753734a534d81a287790f8ef58, type: 3}
-      propertyPath: m_Name
-      value: SpawnAreaNormal
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1a5f44753734a534d81a287790f8ef58, type: 3}
 --- !u!1001 &959989497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29982,10 +29903,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30515,10 +30432,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (57)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32159,10 +32072,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (5)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5
       objectReference: {fileID: 0}
@@ -32596,10 +32505,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (45)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33904,10 +33809,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (39)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 37
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5
       objectReference: {fileID: 0}
@@ -34308,10 +34209,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (50)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 48
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5
       objectReference: {fileID: 0}
@@ -34582,10 +34479,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (37)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36922,10 +36815,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (22)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 22
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
@@ -37210,10 +37099,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (26)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38038,10 +37923,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39038,71 +38919,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5018950055216721060, guid: c15f037642a1e1b439d19869e86e1ddf, type: 3}
   m_PrefabInstance: {fileID: 1245389203}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1250215686
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.6118258
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5.7155313
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 46.6781
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -93.1629
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3885566102346967976, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_Name
-      value: SpawnAreaGreen (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
 --- !u!1 &1257256214
 GameObject:
   m_ObjectHideFlags: 0
@@ -40719,10 +40535,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (32)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42878,10 +42690,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (24)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 24
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5
       objectReference: {fileID: 0}
@@ -44205,10 +44013,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5
       objectReference: {fileID: 0}
@@ -44471,10 +44275,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45610,10 +45410,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (47)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5
       objectReference: {fileID: 0}
@@ -46703,10 +46499,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (21)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5
       objectReference: {fileID: 0}
@@ -46943,6 +46735,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 393477583}
     m_Modifications:
+    - target: {fileID: 3598986552151471853, guid: 7b8d9613223ef1f448bbe8fc90d8a85d, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5871847615224283292, guid: 7b8d9613223ef1f448bbe8fc90d8a85d, type: 3}
       propertyPath: m_Name
       value: Rug_Apt_01
@@ -48203,10 +47999,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5
       objectReference: {fileID: 0}
@@ -48444,10 +48236,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (62)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
       objectReference: {fileID: 0}
@@ -48508,10 +48296,6 @@ PrefabInstance:
     - target: {fileID: 421252560260396309, guid: a210596d183602d4f9abc956ba791b9e, type: 3}
       propertyPath: m_Name
       value: Int_apt_03_Floor_02 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 421252560260396522, guid: a210596d183602d4f9abc956ba791b9e, type: 3}
-      propertyPath: m_RootOrder
-      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: 421252560260396522, guid: a210596d183602d4f9abc956ba791b9e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48944,53 +48728,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7133542736947799490, guid: ef4b81edf6a2c2c47a4989214665fcb8, type: 3}
   m_PrefabInstance: {fileID: 1568401269}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1570543193
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1570543195}
-  - component: {fileID: 1570543194}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1570543194
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570543193}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50fadb3324d7abb45b4ebe8cf3e0a239, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabNormal: {fileID: 2122249513882061551, guid: 2dc026f062e3b4948a711bd023ff454d, type: 3}
-  prefabGreen: {fileID: 2319670312110786478, guid: 04ce6eb97724c6545aafe8c91bc167d2, type: 3}
-  prefabRed: {fileID: 1227628905039264891, guid: bdedc0f4074ecd2419dffb7963f9f5d7, type: 3}
---- !u!4 &1570543195
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570543193}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 46.61737, y: 3.474779, z: -88.322014}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1570609918
 GameObject:
   m_ObjectHideFlags: 0
@@ -50361,10 +50098,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5
       objectReference: {fileID: 0}
@@ -51041,10 +50774,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (38)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5
       objectReference: {fileID: 0}
@@ -51237,10 +50966,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (55)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -52074,10 +51799,6 @@ PrefabInstance:
       value: Int_apt_03_Floor_02
       objectReference: {fileID: 0}
     - target: {fileID: 421252560260396522, guid: a210596d183602d4f9abc956ba791b9e, type: 3}
-      propertyPath: m_RootOrder
-      value: 62
-      objectReference: {fileID: 0}
-    - target: {fileID: 421252560260396522, guid: a210596d183602d4f9abc956ba791b9e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
       objectReference: {fileID: 0}
@@ -52204,10 +51925,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -52787,10 +52504,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (48)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 46
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5
       objectReference: {fileID: 0}
@@ -53104,6 +52817,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 55306885661601203, guid: 708f360dca4c28243813704f811ad080, type: 3}
   m_PrefabInstance: {fileID: 1717142120}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1719571984
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1850311073694269998, guid: a21d604af47a6e44588342110d598ad8, type: 3}
+      propertyPath: numberOfParticles
+      value: 20000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441949331321947820, guid: a21d604af47a6e44588342110d598ad8, type: 3}
+      propertyPath: m_Name
+      value: SpawnZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858982016722785007, guid: a21d604af47a6e44588342110d598ad8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858982016722785007, guid: a21d604af47a6e44588342110d598ad8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 13.9289055
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858982016722785007, guid: a21d604af47a6e44588342110d598ad8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 45.383
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858982016722785007, guid: a21d604af47a6e44588342110d598ad8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858982016722785007, guid: a21d604af47a6e44588342110d598ad8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -89.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858982016722785007, guid: a21d604af47a6e44588342110d598ad8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858982016722785007, guid: a21d604af47a6e44588342110d598ad8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858982016722785007, guid: a21d604af47a6e44588342110d598ad8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858982016722785007, guid: a21d604af47a6e44588342110d598ad8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858982016722785007, guid: a21d604af47a6e44588342110d598ad8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858982016722785007, guid: a21d604af47a6e44588342110d598ad8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858982016722785007, guid: a21d604af47a6e44588342110d598ad8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a21d604af47a6e44588342110d598ad8, type: 3}
 --- !u!1001 &1723286005
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55354,10 +55136,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (13)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
@@ -56439,10 +56217,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (53)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -60054,10 +59828,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (33)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 31
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5
       objectReference: {fileID: 0}
@@ -60437,10 +60207,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -61340,10 +61106,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (51)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -63468,6 +63230,66 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6998813880806314218, guid: f5711794550f9dc49ba65d9b63963e1c, type: 3}
   m_PrefabInstance: {fileID: 1988680881}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1989647558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1989647561}
+  - component: {fileID: 1989647560}
+  - component: {fileID: 1989647559}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1989647559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989647558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 773d08c4c7350b840b46ac6b65eb162b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1989647560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989647558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fadb3324d7abb45b4ebe8cf3e0a239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onScoreUpdated:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1989647561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989647558}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1274579, y: -1.6449986, z: -6.7807693}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1993339863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64251,10 +64073,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (49)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 47
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
@@ -64964,71 +64782,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 646888896587959858, guid: 5aac716a11271124887a33ec1836f27b, type: 3}
   m_PrefabInstance: {fileID: 2044178008}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2046216821
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 4.56
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 46.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.1000004
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -88.984085
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2730160451471741214, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3885566102346967976, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
-      propertyPath: m_Name
-      value: SpawnAreaGreen
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d44d7e766af1ca041a48c56ae990823b, type: 3}
 --- !u!1001 &2048838292
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66494,71 +66247,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1017606091530846216, guid: c5be39b879c83f54d9bbfebe68c809be, type: 3}
   m_PrefabInstance: {fileID: 2094653558}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2095797791
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5622174230610297899, guid: bcd17f62704011b47b48ea7e754ac399, type: 3}
-      propertyPath: m_Name
-      value: SpawnAreaRed
-      objectReference: {fileID: 0}
-    - target: {fileID: 6776455172355423901, guid: bcd17f62704011b47b48ea7e754ac399, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 6776455172355423901, guid: bcd17f62704011b47b48ea7e754ac399, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5.53
-      objectReference: {fileID: 0}
-    - target: {fileID: 6776455172355423901, guid: bcd17f62704011b47b48ea7e754ac399, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 43.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6776455172355423901, guid: bcd17f62704011b47b48ea7e754ac399, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 6776455172355423901, guid: bcd17f62704011b47b48ea7e754ac399, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -93.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 6776455172355423901, guid: bcd17f62704011b47b48ea7e754ac399, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6776455172355423901, guid: bcd17f62704011b47b48ea7e754ac399, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6776455172355423901, guid: bcd17f62704011b47b48ea7e754ac399, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6776455172355423901, guid: bcd17f62704011b47b48ea7e754ac399, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6776455172355423901, guid: bcd17f62704011b47b48ea7e754ac399, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6776455172355423901, guid: bcd17f62704011b47b48ea7e754ac399, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6776455172355423901, guid: bcd17f62704011b47b48ea7e754ac399, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: bcd17f62704011b47b48ea7e754ac399, type: 3}
 --- !u!1 &2097585928
 GameObject:
   m_ObjectHideFlags: 0
@@ -66936,10 +66624,6 @@ PrefabInstance:
     - target: {fileID: 5921126462729676309, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_Name
       value: Int_apt_01_Floor_01 (54)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
@@ -68188,10 +67872,6 @@ PrefabInstance:
       value: Int_apt_01_Floor_01 (7)
       objectReference: {fileID: 0}
     - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921126462729845301, guid: bee09117d2231334d90a559b1ff7f323, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
@@ -68248,9 +67928,8 @@ SceneRoots:
   - {fileID: 964795965}
   - {fileID: 1611559837}
   - {fileID: 756539993}
-  - {fileID: 1570543195}
-  - {fileID: 958987693}
-  - {fileID: 2046216821}
-  - {fileID: 1250215686}
-  - {fileID: 2095797791}
   - {fileID: 397149032}
+  - {fileID: 1989647561}
+  - {fileID: 305025723}
+  - {fileID: 1719571984}
+  - {fileID: 367110260}
