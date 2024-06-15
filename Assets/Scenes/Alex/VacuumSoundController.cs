@@ -9,7 +9,7 @@ public class VacuumSoundController : MonoBehaviour
 
     void Update()
     {
-        /*if (Input.GetButtonDown(triggerButtonName))
+        if (Input.GetButtonDown(triggerButtonName)) 
         {
             isButtonDown = true;
             if (!vacuumSound.isPlaying)
@@ -21,6 +21,6 @@ public class VacuumSoundController : MonoBehaviour
         {
             isButtonDown = false;
             vacuumSound.Stop();
-        }*/
+        }
     }
 }
