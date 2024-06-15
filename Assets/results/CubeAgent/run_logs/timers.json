@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1718474441",
+        "python_version": "3.9.19 (main, May  6 2024, 20:12:36) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\alexg\\anaconda3\\envs\\ML\\Scripts\\mlagents-learn Config/RoombaAgent.yaml --run-id=CubeAgent --resume",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1718474502"
+    },
+    "total": 61.1805418,
+    "count": 1,
+    "self": 0.005639200000004507,
+    "children": {
+        "run_training.setup": {
+            "total": 0.08135309999999984,
+            "count": 1,
+            "self": 0.08135309999999984
+        },
+        "TrainerController.start_learning": {
+            "total": 61.093549499999995,
+            "count": 1,
+            "self": 9.509999998869034e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 61.0934334,
+                    "count": 1,
+                    "self": 61.0934334
+                },
+                "TrainerController._save_models": {
+                    "total": 2.1000000003823516e-05,
+                    "count": 1,
+                    "self": 2.1000000003823516e-05
+                }
+            }
+        }
+    }
+}
