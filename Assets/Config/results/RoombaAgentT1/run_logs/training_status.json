@@ -1,0 +1,47 @@
+{
+    "RoombaAgent": {
+        "checkpoints": [
+            {
+                "steps": 200035,
+                "file_path": "results\\RoombaAgentT1\\RoombaAgent\\RoombaAgent-200035.onnx",
+                "reward": -0.3871428838797978,
+                "creation_time": 1718486113.4149768,
+                "auxillary_file_paths": [
+                    "results\\RoombaAgentT1\\RoombaAgent\\RoombaAgent-200035.pt"
+                ]
+            },
+            {
+                "steps": 499941,
+                "file_path": "results\\RoombaAgentT1\\RoombaAgent\\RoombaAgent-499941.onnx",
+                "reward": -0.16620006710290908,
+                "creation_time": 1718499655.6834679,
+                "auxillary_file_paths": [
+                    "results\\RoombaAgentT1\\RoombaAgent\\RoombaAgent-499941.pt"
+                ]
+            },
+            {
+                "steps": 548854,
+                "file_path": "results\\RoombaAgentT1\\RoombaAgent\\RoombaAgent-548854.onnx",
+                "reward": -0.23452636874035784,
+                "creation_time": 1718501038.4976122,
+                "auxillary_file_paths": [
+                    "results\\RoombaAgentT1\\RoombaAgent\\RoombaAgent-548854.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 548854,
+            "file_path": "results\\RoombaAgentT1\\RoombaAgent.onnx",
+            "reward": -0.23452636874035784,
+            "creation_time": 1718501038.4976122,
+            "auxillary_file_paths": [
+                "results\\RoombaAgentT1\\RoombaAgent\\RoombaAgent-548854.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
