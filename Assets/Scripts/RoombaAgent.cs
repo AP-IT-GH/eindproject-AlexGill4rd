@@ -58,7 +58,7 @@ public class RoombaAgent : Agent
         Collider[] hitColliders = Physics.OverlapSphere(this.transform.position, detectionRadius);
         foreach (var hitCollider in hitColliders)
         {
-            if (hitCollider.CompareTag("Obstacle"))
+            if (hitCollider.CompareTag("Dust"))
             {
                 Vector3 directionToObstacle = hitCollider.transform.position - this.transform.position;
                 sensor.AddObservation(directionToObstacle.normalized);
