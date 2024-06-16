@@ -27,6 +27,15 @@
                 "auxillary_file_paths": [
                     "results\\RoombaAgentT1\\RoombaAgent\\RoombaAgent-548854.pt"
                 ]
+            },
+            {
+                "steps": 999942,
+                "file_path": "results\\RoombaAgentT1\\RoombaAgent\\RoombaAgent-999942.onnx",
+                "reward": -0.1310000717639923,
+                "creation_time": 1718553403.442996,
+                "auxillary_file_paths": [
+                    "results\\RoombaAgentT1\\RoombaAgent\\RoombaAgent-999942.pt"
+                ]
             }
         ],
         "final_checkpoint": {
