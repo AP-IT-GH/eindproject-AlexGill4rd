@@ -9,8 +9,12 @@ public class RoombaAgent : Agent
     public float speedMultiplier = 0.1f;
     public float rotationMultiplier = 5f;
     public Vector3 startingPosition; // Define starting position in the Unity Editor
+    public float detectionRadius = 2f; // Radius for detecting nearby obstacles
+    public int maxCollisions = 3; // Maximum allowed collisions
 
     private List<GameObject> dustObjects;
+    private List<Vector3> initialDustPositions;
+    private int collisionCount;
 
     private void Start()
     {
@@ -19,27 +23,48 @@ public class RoombaAgent : Agent
 
         // Find all dust objects and store them in a list
         dustObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("Dust"));
-    }
 
-    private void Update()
-    {
-        // Any update logic if needed
+        // Store initial positions of dust objects for resetting
+        initialDustPositions = new List<Vector3>();
+        foreach (var dust in dustObjects)
+        {
+            initialDustPositions.Add(dust.transform.localPosition);
+        }
     }
 
     public override void OnEpisodeBegin()
     {
+        // Reset agent position
         this.transform.localPosition = startingPosition;
-        foreach (var dust in dustObjects)
+
+        // Reset dust objects to their initial positions and activate them
+        for (int i = 0; i < dustObjects.Count; i++)
         {
-            dust.SetActive(true);
+            dustObjects[i].transform.localPosition = initialDustPositions[i];
+            dustObjects[i].SetActive(true);
         }
+
+        // Reset collision count
+        collisionCount = 0;
     }
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        // Collect observations
+        // Collect observations about the agent's position and orientation
         sensor.AddObservation(this.transform.localPosition);
         sensor.AddObservation(this.transform.forward);
+
+        // Collect observations about nearby obstacles
+        Collider[] hitColliders = Physics.OverlapSphere(this.transform.position, detectionRadius);
+        foreach (var hitCollider in hitColliders)
+        {
+            if (hitCollider.CompareTag("Obstacle"))
+            {
+                Vector3 directionToObstacle = hitCollider.transform.position - this.transform.position;
+                sensor.AddObservation(directionToObstacle.normalized);
+                sensor.AddObservation(directionToObstacle.magnitude / detectionRadius);
+            }
+        }
     }
 
     public override void OnActionReceived(ActionBuffers actions)
@@ -55,7 +80,6 @@ public class RoombaAgent : Agent
         // Rotate
         transform.Rotate(Vector3.up, turnAmount * rotationMultiplier);
 
-        // Rewards and penalties
         // Penalize small amount for each step to encourage efficiency
         AddReward(-0.001f);
 
@@ -79,7 +103,7 @@ public class RoombaAgent : Agent
         if (other.CompareTag("Dust"))
         {
             other.gameObject.SetActive(false);
-            SetReward(0.01f);
+            AddReward(0.02f); // Increased reward for cleaning
         }
     }
 
@@ -87,8 +111,14 @@ public class RoombaAgent : Agent
     {
         if (!collision.gameObject.CompareTag("Ground"))
         {
-            SetReward(-0.5f);
-            EndEpisode();
+            collisionCount++;
+            AddReward(-0.5f); // Larger penalty for collisions with obstacles
+
+            if (collisionCount >= maxCollisions)
+            {
+                SetReward(-1.0f);
+                EndEpisode();
+            }
         }
     }
 }
