@@ -79,7 +79,7 @@ public class RoombaAgent : Agent
         if (other.CompareTag("Dust"))
         {
             other.gameObject.SetActive(false);
-            SetReward(0.01f);
+            SetReward(0.1f);
         }
     }
 
@@ -87,7 +87,7 @@ public class RoombaAgent : Agent
     {
         if (!collision.gameObject.CompareTag("Ground"))
         {
-            SetReward(-0.5f);
+            SetReward(-1f);
             EndEpisode();
         }
     }
