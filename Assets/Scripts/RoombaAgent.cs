@@ -14,14 +14,22 @@ public class RoombaAgent : Agent
     private List<GameObject> bonusObjects;
 
     private int collisionCount;
+
+    private bool started = false;
+
     private void Start()
     {
         this.transform.localPosition = startingPosition;
 
         dustObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("Dust"));
         bonusObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("Bonus"));
-    }
 
+        GameManager.instance.onRoundStarted.AddListener(OnRoundStarted);
+    }
+    public void OnRoundStarted()
+    {
+        this.started = true;
+    }
     public override void OnEpisodeBegin()
     {
         this.transform.localPosition = startingPosition;
