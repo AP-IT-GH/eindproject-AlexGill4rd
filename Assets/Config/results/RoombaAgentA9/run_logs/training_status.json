@@ -1,0 +1,29 @@
+{
+    "RoombaAgent": {
+        "checkpoints": [
+            {
+                "steps": 287,
+                "file_path": "results\\RoombaAgentA9\\RoombaAgent\\RoombaAgent-287.onnx",
+                "reward": -0.8154285975864956,
+                "creation_time": 1718629954.8808339,
+                "auxillary_file_paths": [
+                    "results\\RoombaAgentA9\\RoombaAgent\\RoombaAgent-287.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 287,
+            "file_path": "results\\RoombaAgentA9\\RoombaAgent.onnx",
+            "reward": -0.8154285975864956,
+            "creation_time": 1718629954.8808339,
+            "auxillary_file_paths": [
+                "results\\RoombaAgentA9\\RoombaAgent\\RoombaAgent-287.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
