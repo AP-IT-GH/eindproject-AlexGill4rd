@@ -7,7 +7,6 @@ public class TimerDisplay : MonoBehaviour
     public GameObject endScreenPanel;
     public TextMeshProUGUI playerScoreText;
     public TextMeshProUGUI aiScoreText;
-    private int aiScore;
 
     private void Start()
     {
@@ -36,14 +35,7 @@ public class TimerDisplay : MonoBehaviour
     {
         endScreenPanel.SetActive(true);
         playerScoreText.text = "Player Score: " + GameManager.instance.GetScore();
-        aiScore = CalculateAIScore(); // Replace with actual AI score calculation
-        aiScoreText.text = "AI Score: " + aiScore;
-    }
-
-    private int CalculateAIScore()
-    {
-        // Replace this with your actual AI score calculation logic
-        return Random.Range(0, 200); // Example AI score calculation
+        aiScoreText.text = "AI Score: " + GameManager.instance.GetAiScore();
     }
 
     private void OnDestroy()

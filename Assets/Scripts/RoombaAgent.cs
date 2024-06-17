@@ -73,12 +73,12 @@ public class RoombaAgent : Agent
     {
         if (other.CompareTag("Dust"))
         {
-            other.gameObject.SetActive(false);
+            Destroy(other.gameObject);
             SetReward(0.02f);
         }
         if (other.CompareTag("Bonus"))
         {
-            other.gameObject.SetActive(false);
+            Destroy(other.gameObject);
             SetReward(1f);
         }
     }
