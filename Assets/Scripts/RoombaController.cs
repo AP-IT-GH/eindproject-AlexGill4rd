@@ -15,9 +15,9 @@ public class RoobmaController : MonoBehaviour
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = vacuumSound;
         audioSource.loop = true;
-        audioSource.volume = 0.3f;
+        audioSource.volume = 0.2f;
         audioSource.minDistance = 0.3f;
-        audioSource.maxDistance = 1.2f;
+        audioSource.maxDistance = 1f;
         audioSource.spatialBlend = 1f;
         audioSource.Play();
     }
