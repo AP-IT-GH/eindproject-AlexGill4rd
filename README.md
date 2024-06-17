@@ -49,7 +49,7 @@ De training van de AI was uitdagend omdat er veel zaken mis konden gaan. We hebb
 ### Tensorboard Afbeeldingen
 
 ![image](https://github.com/AP-IT-GH/eindproject-DevinAI/assets/57497005/5ffc7ac4-cc3f-4eb6-9850-ae953e66980d)
-![image](https://github.com/AP-IT-GH/eindproject-DevinAI/assets/57497005/4f6d481c-534c-4a24-ad6d-d80aac8c2d29)
+![image](https://github.com/AP-IT-GH/eindproject-DevinAI/assets/57497005/7406e836-0782-4515-ba8a-8497484fca0c)
 ![image](https://github.com/AP-IT-GH/eindproject-DevinAI/assets/57497005/51e04064-88b8-456b-aa19-f780c83b6ef0)
 
 ### Uitleg Resultaten
@@ -151,9 +151,15 @@ De resultaten van onze training laten zien dat, ondanks de complexiteit, machine
 
 ### Toekomstige Verbeteringen
 In de toekomst willen we:
-- Meer complexe objecten en kamers toevoegen voor een uitdagendere spelervaring.
-- De AI verder optimaliseren voor nog betere prestaties.
-- Extra features zoals verschillende spelmodus implementeren.
+- Fijn afstellen van beloning parameters voor nog efficiënter stofzuigen.
+- Uitbreiding van interactieve objecten en complexere kamers.
+- Optimalisatie van VR-ervaring voor betere gebruikersinteractie.
+- Dust layer in plaats van stofdeeltjes. Dit zal de game ook sneller maken.
+- Gebruik van shaders
+- Verschillende levels
+- Verschillende stofzuigers met snelheden
+- Maximaal energie in batterij stofzuiger
+
 
 ### Gebruikte Bronnen en Assets
 - **Assets voor de map, stofzuiger en Roomba-model:**
@@ -162,6 +168,9 @@ In de toekomst willen we:
   - 3D-modellen en omgevingsassets afkomstig van [Unity Asset Store](https://assetstore.unity.com/).
 
 ## Bronnen (APA-stijl)
-- Unity Technologies. (2023). Unity Documentation. Geraadpleegd van https://docs.unity3d.com/
-- Unity Technologies. (2023). ML-Agents Toolkit. Geraadpleegd van https://github.com/Unity-Technologies/ml-agents
-- Unity Asset Store. (2023). Asset Store. Geraadpleegd van https://assetstore.unity.com/
+- Unity Technologies. (n.d.). Unity. https://unity.com/
+- Unity Technologies. (2023). ML-Agents Toolkit. GitHub. https://github.com/Unity-Technologies/ml-agents
+- TensorFlow. (n.d.). TensorBoard. https://www.tensorflow.org/tensorboard
+- Oculus. (n.d.). Oculus Quest 2. https://www.oculus.com/quest-2/
+- Unity Asset Store. (n.d.). https://assetstore.unity.com/
+
