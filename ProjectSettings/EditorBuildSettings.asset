@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Yelko/YelkoScene.unity
     guid: c8fbf28b55ba8ce41a23cfa7283f57a7
+  - enabled: 1
+    path: Assets/Scenes/Timothy/timothyScene.unity
+    guid: 8b40d8e92ed0d734689323cff0c77bc2
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
