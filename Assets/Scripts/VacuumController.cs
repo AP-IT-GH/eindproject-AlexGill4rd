@@ -3,8 +3,12 @@ using UnityEngine.XR;
 
 public class VacuumController : MonoBehaviour
 {
-    public int pointsPerDust = 1; // Points to add per dust particle
-    public AudioClip vacuumSound; // Sound clip for the vacuum cleaner
+    public int pointsPerDust = 1;
+    public int pointsPerBonus = 200;
+    public AudioClip vacuumSound;
+    public AudioClip bonusPickupSound;
+    public AudioClip pop1Sound;
+    public AudioClip pop2Sound;
     private AudioSource audioSource;
     private bool isHoldingVacuum = false;
 
@@ -12,12 +16,12 @@ public class VacuumController : MonoBehaviour
     {
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = vacuumSound;
-        audioSource.loop = true; // Loop the vacuum cleaner sound
+        audioSource.loop = true;
+        audioSource.volume = 0.3f;
     }
 
     private void Update()
     {
-        // Check if the player is holding the vacuum cleaner
         if (isHoldingVacuum)
         {
             bool triggerValue;
@@ -41,20 +45,40 @@ public class VacuumController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-  
         bool triggerValue;
         InputDevice device = InputDevices.GetDeviceAtXRNode(XRNode.RightHand);
 
         if (other.CompareTag("Dust") && isHoldingVacuum && device.TryGetFeatureValue(CommonUsages.triggerButton, out triggerValue) && triggerValue)
         {
             GameManager.instance.AddScore(pointsPerDust);
+            PlayRandomPopSound();
             Destroy(other.gameObject);
         }
+
+        if (other.CompareTag("Bonus") && isHoldingVacuum && device.TryGetFeatureValue(CommonUsages.triggerButton, out triggerValue) && triggerValue)
+        {
+            GameManager.instance.AddScore(pointsPerBonus);
+            PlayBonusPickupSound();
+            Destroy(other.gameObject);
+        }
+    }
+
+    private void PlayRandomPopSound()
+    {
+        AudioClip popSound = Random.value > 0.5f ? pop1Sound : pop2Sound;
+        float volumeScale = 0.2f;
+        audioSource.PlayOneShot(popSound, volumeScale);
+    }
+    private void PlayBonusPickupSound()
+    {
+        float volumeScale = 1f;
+        audioSource.PlayOneShot(bonusPickupSound, volumeScale);
     }
 
     public void PickUpVacuum()
     {
         isHoldingVacuum = true;
+        GameManager.instance.StartRound();
     }
 
     public void DropVacuum()
