@@ -28,6 +28,7 @@ public class VacuumController : MonoBehaviour
             InputDevice device = InputDevices.GetDeviceAtXRNode(XRNode.RightHand);
             if (device.TryGetFeatureValue(CommonUsages.triggerButton, out triggerValue) && triggerValue)
             {
+                GameManager.instance.StartRound();
                 if (!audioSource.isPlaying)
                 {
                     audioSource.Play();
@@ -78,7 +79,6 @@ public class VacuumController : MonoBehaviour
     public void PickUpVacuum()
     {
         isHoldingVacuum = true;
-        GameManager.instance.StartRound();
     }
 
     public void DropVacuum()
