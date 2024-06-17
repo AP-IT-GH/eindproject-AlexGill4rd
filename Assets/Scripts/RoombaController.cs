@@ -28,12 +28,29 @@ public class RoobmaController : MonoBehaviour
         {
             GameManager.instance.AddAiScore(pointsPerDust);
             PlayRandomPopSound();
+            if (GameManager.instance.isTesting)
+            {
+                other.gameObject.SetActive(false);
+            }
+            else
+            {
+                Destroy(other.gameObject);
+            }
         }
 
         if (other.CompareTag("Bonus"))
         {
             GameManager.instance.AddAiScore(pointsPerBonus);
             PlayBonusPickupSound();
+
+            if (GameManager.instance.isTesting)
+            {
+                other.gameObject.SetActive(false);
+            }
+            else
+            {
+                Destroy(other.gameObject);
+            }
         }
     }
 
