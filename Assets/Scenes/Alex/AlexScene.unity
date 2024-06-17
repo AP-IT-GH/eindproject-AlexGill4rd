@@ -74757,18 +74757,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SensorName: RayPerceptionSensor
-  m_DetectableTags: []
-  m_RaysPerDirection: 3
-  m_MaxRayDegrees: 90
-  m_SphereCastRadius: 0.16
-  m_RayLength: 2
+  m_DetectableTags:
+  - Dust
+  - Bonus
+  m_RaysPerDirection: 8
+  m_MaxRayDegrees: 180
+  m_SphereCastRadius: 0.1
+  m_RayLength: 8
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967291
+    m_Bits: 4294967177
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
-  m_StartVerticalOffset: 0
+  m_StartVerticalOffset: -0.33
   m_EndVerticalOffset: 0
 --- !u!114 &1781480289
 MonoBehaviour:
@@ -74790,7 +74792,7 @@ MonoBehaviour:
   rotationMultiplier: 5
   startingPosition: {x: 4.46, y: 0.288, z: -1.227}
   maxCollision: 3
-  isTesting: 0
+  isTesting: 1
 --- !u!114 &1781480290
 MonoBehaviour:
   m_ObjectHideFlags: 0

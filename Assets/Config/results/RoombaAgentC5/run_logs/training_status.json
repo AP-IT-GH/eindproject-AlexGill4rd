@@ -3,5 +3,27 @@
         "stats_format_version": "0.3.0",
         "mlagents_version": "0.30.0",
         "torch_version": "1.7.1+cu110"
+    },
+    "RoombaAgent": {
+        "checkpoints": [
+            {
+                "steps": 150060,
+                "file_path": "results\\RoombaAgentC5\\RoombaAgent\\RoombaAgent-150060.onnx",
+                "reward": -5.918333418667316,
+                "creation_time": 1718646199.7194862,
+                "auxillary_file_paths": [
+                    "results\\RoombaAgentC5\\RoombaAgent\\RoombaAgent-150060.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 150060,
+            "file_path": "results\\RoombaAgentC5\\RoombaAgent.onnx",
+            "reward": -5.918333418667316,
+            "creation_time": 1718646199.7194862,
+            "auxillary_file_paths": [
+                "results\\RoombaAgentC5\\RoombaAgent\\RoombaAgent-150060.pt"
+            ]
+        }
     }
 }
