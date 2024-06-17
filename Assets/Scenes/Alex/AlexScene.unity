@@ -21918,7 +21918,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roundDuration: 60
-  roombaAgentE1: {fileID: 1781480289}
   onScoreUpdated:
     m_PersistentCalls:
       m_Calls: []
@@ -21931,7 +21930,10 @@ MonoBehaviour:
   onRoundEnded:
     m_PersistentCalls:
       m_Calls: []
-  isTesting: 1
+  onRoundStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  isTesting: 0
 --- !u!4 &556799746
 Transform:
   m_ObjectHideFlags: 0
@@ -74619,17 +74621,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779827993}
   m_Mesh: {fileID: 4300002, guid: 0156872a951ba6e44a3a8596040789c9, type: 3}
---- !u!114 &1781480289 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5491757991281512711, guid: 36a212ef695f4be4a96c3d1acf428364, type: 3}
-  m_PrefabInstance: {fileID: 2273354631728928449}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83ab9458c8d0d024db7629b9e92338c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1781998231
 GameObject:
   m_ObjectHideFlags: 0

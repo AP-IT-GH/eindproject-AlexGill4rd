@@ -11,18 +11,16 @@ public class GameManager : MonoBehaviour
     private float roundTime = 120f;
     private bool isTiming = false;
 
-    public RoombaAgentE1 roombaAgentE1;
-
     public UnityEvent onScoreUpdated = new();
     public UnityEvent onAiScoreUpdated = new();
     public UnityEvent onTimerUpdated = new();
     public UnityEvent onRoundEnded = new();
+    public UnityEvent onRoundStarted = new();
 
     public bool isTesting = true;
 
     private void Awake()
     {
-        roombaAgentE1.enabled = false;
         if (instance == null)
         {
             instance = this;
@@ -54,9 +52,9 @@ public class GameManager : MonoBehaviour
     {
         if (isTiming) return;
 
-        roombaAgentE1.enabled = true;
         ResetTimer();
         StartTimer();
+        onRoundStarted.Invoke();
     }
 
     public void StartTimer()
@@ -106,13 +104,13 @@ public class GameManager : MonoBehaviour
     private void EndRound()
     {
         Debug.Log("Round ended!");
-        roombaAgentE1.enabled = false;
         onRoundEnded.Invoke();
 
         aiScore = 0;
         score = 0;
         isTiming = false;
         roundTime = 0;
+
     }
 
     public void SaveScore()
