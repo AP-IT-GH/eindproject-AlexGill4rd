@@ -166,6 +166,7 @@ In de toekomst willen we:
   - Roomba [Sketchfab](https://sketchfab.com/3d-models/robot-vacuum-cleaner-low-poly-7230d8d80e8b4a82b4a34a5e7926d0d3)
   - Stofzuiger [Sketchfab](https://sketchfab.com/3d-models/vacuumed-cleaner-f5739f98cabd4a6fa15b795cb8fb7f42)
   - 3D-modellen en omgevingsassets afkomstig van [Unity Asset Store](https://assetstore.unity.com/).
+  - Kapstok [Unity](https://learn.unity.com/course/create-with-vr)
 
 ## Bronnen (APA-stijl)
 - Unity Technologies. (n.d.). Unity. https://unity.com/
