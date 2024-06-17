@@ -1,0 +1,65 @@
+{
+    "RoombaAgent": {
+        "checkpoints": [
+            {
+                "steps": 499962,
+                "file_path": "results\\RoombaAgentA6\\RoombaAgent\\RoombaAgent-499962.onnx",
+                "reward": -0.2380000760157903,
+                "creation_time": 1718550822.386497,
+                "auxillary_file_paths": [
+                    "results\\RoombaAgentA6\\RoombaAgent\\RoombaAgent-499962.pt"
+                ]
+            },
+            {
+                "steps": 768828,
+                "file_path": "results\\RoombaAgentA6\\RoombaAgent\\RoombaAgent-768828.onnx",
+                "reward": -0.07400007247924804,
+                "creation_time": 1718563198.51359,
+                "auxillary_file_paths": [
+                    "results\\RoombaAgentA6\\RoombaAgent\\RoombaAgent-768828.pt"
+                ]
+            },
+            {
+                "steps": 999930,
+                "file_path": "results\\RoombaAgentA6\\RoombaAgent\\RoombaAgent-999930.onnx",
+                "reward": -0.21757153599035173,
+                "creation_time": 1718575881.2047882,
+                "auxillary_file_paths": [
+                    "results\\RoombaAgentA6\\RoombaAgent\\RoombaAgent-999930.pt"
+                ]
+            },
+            {
+                "steps": 1499955,
+                "file_path": "results\\RoombaAgentA6\\RoombaAgent\\RoombaAgent-1499955.onnx",
+                "reward": -0.24240009983380637,
+                "creation_time": 1718601770.2473001,
+                "auxillary_file_paths": [
+                    "results\\RoombaAgentA6\\RoombaAgent\\RoombaAgent-1499955.pt"
+                ]
+            },
+            {
+                "steps": 1725675,
+                "file_path": "results\\RoombaAgentA6\\RoombaAgent\\RoombaAgent-1725675.onnx",
+                "reward": -0.08133344848950703,
+                "creation_time": 1718613841.3502076,
+                "auxillary_file_paths": [
+                    "results\\RoombaAgentA6\\RoombaAgent\\RoombaAgent-1725675.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1725675,
+            "file_path": "results\\RoombaAgentA6\\RoombaAgent.onnx",
+            "reward": -0.08133344848950703,
+            "creation_time": 1718613841.3502076,
+            "auxillary_file_paths": [
+                "results\\RoombaAgentA6\\RoombaAgent\\RoombaAgent-1725675.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
