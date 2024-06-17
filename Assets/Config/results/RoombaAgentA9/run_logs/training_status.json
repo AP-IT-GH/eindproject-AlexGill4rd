@@ -2,22 +2,22 @@
     "RoombaAgent": {
         "checkpoints": [
             {
-                "steps": 287,
-                "file_path": "results\\RoombaAgentA9\\RoombaAgent\\RoombaAgent-287.onnx",
-                "reward": -0.8154285975864956,
-                "creation_time": 1718629954.8808339,
+                "steps": 39413,
+                "file_path": "results\\RoombaAgentA9\\RoombaAgent\\RoombaAgent-39413.onnx",
+                "reward": -0.6248572028818584,
+                "creation_time": 1718631990.5677137,
                 "auxillary_file_paths": [
-                    "results\\RoombaAgentA9\\RoombaAgent\\RoombaAgent-287.pt"
+                    "results\\RoombaAgentA9\\RoombaAgent\\RoombaAgent-39413.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 287,
+            "steps": 39413,
             "file_path": "results\\RoombaAgentA9\\RoombaAgent.onnx",
-            "reward": -0.8154285975864956,
-            "creation_time": 1718629954.8808339,
+            "reward": -0.6248572028818584,
+            "creation_time": 1718631990.5677137,
             "auxillary_file_paths": [
-                "results\\RoombaAgentA9\\RoombaAgent\\RoombaAgent-287.pt"
+                "results\\RoombaAgentA9\\RoombaAgent\\RoombaAgent-39413.pt"
             ]
         }
     },
