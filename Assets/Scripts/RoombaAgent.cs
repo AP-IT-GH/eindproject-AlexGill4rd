@@ -1,32 +1,24 @@
 using System.Collections.Generic;
-using System.Linq;
 using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
 using UnityEngine;
 
-public class RoombaAgentE1 : Agent
+public class RoombaAgent : Agent
 {
     public float speedMultiplier = 0.1f;
     public float rotationMultiplier = 5f;
-    public Vector3 startingPosition; // Define starting position in the Unity Editor
-    public int maxCollision = 3;
+    public Vector3 startingPosition;
+
     private List<GameObject> dustObjects;
 
-    public bool isTesting = true;
-
-    private int collisionCount;
     private void Start()
     {
         // Initialize agent at the starting position
         this.transform.localPosition = startingPosition;
 
-        dustObjects = new List<GameObject>();
-
-        GameObject[] dustArray = GameObject.FindGameObjectsWithTag("Dust");
-        GameObject[] bonusArray = GameObject.FindGameObjectsWithTag("Bonus");
-        GameObject[] mergedArray = dustArray.Concat(bonusArray).ToArray();
-        dustObjects.AddRange(mergedArray);
+        // Find all dust objects and store them in a list
+        dustObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("Dust"));
     }
 
     private void Update()
@@ -37,7 +29,6 @@ public class RoombaAgentE1 : Agent
     public override void OnEpisodeBegin()
     {
         this.transform.localPosition = startingPosition;
-        this.collisionCount = 0;
         foreach (var dust in dustObjects)
         {
             dust.SetActive(true);
@@ -46,29 +37,24 @@ public class RoombaAgentE1 : Agent
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        // Collect observations
         sensor.AddObservation(this.transform.localPosition);
         sensor.AddObservation(this.transform.forward);
     }
 
     public override void OnActionReceived(ActionBuffers actions)
     {
-        // Process actions
         float forwardAmount = actions.ContinuousActions[0];
         float turnAmount = actions.ContinuousActions[1];
 
-        // Move forward
         Vector3 controlSignal = transform.forward * forwardAmount;
         transform.Translate(controlSignal * speedMultiplier, Space.World);
 
-        // Rotate
         transform.Rotate(Vector3.up, turnAmount * rotationMultiplier);
 
         // Rewards and penalties
         // Penalize small amount for each step to encourage efficiency
         AddReward(-0.001f);
 
-        // Check for falling off platform
         if (this.transform.localPosition.y < 0)
         {
             SetReward(-1.0f);
@@ -87,15 +73,13 @@ public class RoombaAgentE1 : Agent
     {
         if (other.CompareTag("Dust"))
         {
-            if (isTesting)
-                other.gameObject.SetActive(false);
+            Destroy(other.gameObject);
             SetReward(0.02f);
         }
         if (other.CompareTag("Bonus"))
         {
-            if (isTesting)
-                other.gameObject.SetActive(false);
-            SetReward(0.5f);
+            Destroy(other.gameObject);
+            SetReward(1f);
         }
     }
 
@@ -103,10 +87,8 @@ public class RoombaAgentE1 : Agent
     {
         if (!collision.gameObject.CompareTag("Ground"))
         {
-            collisionCount++;
-            AddReward(-1.5f); // Larger penalty for collisions with obstacles
-
-            if (collisionCount >= maxCollision) EndEpisode();
+            SetReward(-1f);
+            EndEpisode();
         }
     }
 }
