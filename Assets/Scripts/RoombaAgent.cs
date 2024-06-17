@@ -11,6 +11,7 @@ public class RoombaAgent : Agent
     public Vector3 startingPosition;
 
     private List<GameObject> dustObjects;
+    private List<GameObject> bonusObjects;
     public bool isTesting = true;
 
     private void Start()
@@ -18,6 +19,7 @@ public class RoombaAgent : Agent
         this.transform.localPosition = startingPosition;
 
         dustObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("Dust"));
+        bonusObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("Bonus"));
     }
 
     public override void OnEpisodeBegin()
@@ -67,21 +69,15 @@ public class RoombaAgent : Agent
     {
         if (other.CompareTag("Dust"))
         {
+            other.gameObject.SetActive(false);
             SetReward(0.02f);
         }
         if (other.CompareTag("Bonus"))
         {
+            other.gameObject.SetActive(false);
             SetReward(1f);
         }
 
-        if (isTesting)
-        {
-            other.gameObject.SetActive(false);
-        }
-        else
-        {
-            Destroy(other.gameObject);
-        }
     }
 
     private void OnCollisionEnter(Collision collision)
