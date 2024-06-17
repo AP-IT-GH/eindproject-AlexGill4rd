@@ -87,15 +87,13 @@ public class RoombaAgentE1 : Agent
     {
         if (other.CompareTag("Dust"))
         {
-            if (isTesting)
-                other.gameObject.SetActive(false);
-            SetReward(0.02f);
+            other.gameObject.SetActive(false);
+            SetReward(0.05f);
         }
         if (other.CompareTag("Bonus"))
         {
-            if (isTesting)
-                other.gameObject.SetActive(false);
-            SetReward(0.5f);
+            other.gameObject.SetActive(false);
+            SetReward(1f);
         }
     }
 
@@ -106,7 +104,8 @@ public class RoombaAgentE1 : Agent
             collisionCount++;
             AddReward(-1.5f); // Larger penalty for collisions with obstacles
 
-            if (collisionCount >= maxCollision) EndEpisode();
+
+            if (collisionCount >= maxCollision && isTesting) EndEpisode();
         }
     }
 }
