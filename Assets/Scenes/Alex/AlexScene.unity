@@ -74766,7 +74766,7 @@ MonoBehaviour:
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
-  m_StartVerticalOffset: -0.33
+  m_StartVerticalOffset: 0
   m_EndVerticalOffset: 0
 --- !u!114 &1781480289
 MonoBehaviour:
@@ -74862,7 +74862,7 @@ Transform:
   m_GameObject: {fileID: 1781480286}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.46, y: 0.288, z: -1.227}
+  m_LocalPosition: {x: 4.46, y: 0.196, z: -1.227}
   m_LocalScale: {x: 0.36892542, y: 0.11861289, z: 0.4217022}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -91101,6 +91101,10 @@ PrefabInstance:
       propertyPath: bonusPickupSound
       value: 
       objectReference: {fileID: 8300000, guid: b2e598f7fe7603e40a6272b2a560905e, type: 3}
+    - target: {fileID: 4099709826527078263, guid: 5c9dac9b17cb7f64e933ed3335eeadb1, type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5484645932977576803, guid: 5c9dac9b17cb7f64e933ed3335eeadb1, type: 3}
       propertyPath: m_Name
       value: VACUUM CLEANER
