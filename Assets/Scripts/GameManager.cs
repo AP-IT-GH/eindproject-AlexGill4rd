@@ -7,8 +7,8 @@ public class GameManager : MonoBehaviour
 
     private int score = 0;
     private int aiScore = 0;
-    public float roundDuration = 10f; // 1 minute round time
-    private float roundTime = 10f; // 1 minute round time
+    public float roundDuration = 120f;
+    private float roundTime = 120f;
     private bool isTiming = false;
 
     public UnityEvent onScoreUpdated = new();
@@ -47,6 +47,8 @@ public class GameManager : MonoBehaviour
 
     public void StartRound()
     {
+        if (isTiming) return;
+
         ResetTimer();
         StartTimer();
     }
