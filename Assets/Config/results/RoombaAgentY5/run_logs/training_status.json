@@ -2,31 +2,22 @@
     "RoombaAgent": {
         "checkpoints": [
             {
-                "steps": 165034,
-                "file_path": "results\\RoombaAgent5\\RoombaAgent\\RoombaAgent-165034.onnx",
+                "steps": 145099,
+                "file_path": "results\\RoombaAgentHarderPenalty\\RoombaAgent\\RoombaAgent-145099.onnx",
                 "reward": null,
-                "creation_time": 1718568008.335239,
+                "creation_time": 1718629841.5913653,
                 "auxillary_file_paths": [
-                    "results\\RoombaAgent5\\RoombaAgent\\RoombaAgent-165034.pt"
-                ]
-            },
-            {
-                "steps": 247187,
-                "file_path": "results\\RoombaAgent5\\RoombaAgent\\RoombaAgent-247187.onnx",
-                "reward": null,
-                "creation_time": 1718573129.3972056,
-                "auxillary_file_paths": [
-                    "results\\RoombaAgent5\\RoombaAgent\\RoombaAgent-247187.pt"
+                    "results\\RoombaAgentHarderPenalty\\RoombaAgent\\RoombaAgent-145099.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 247187,
-            "file_path": "results\\RoombaAgent5\\RoombaAgent.onnx",
+            "steps": 145099,
+            "file_path": "results\\RoombaAgentHarderPenalty\\RoombaAgent.onnx",
             "reward": null,
-            "creation_time": 1718573129.3972056,
+            "creation_time": 1718629841.5913653,
             "auxillary_file_paths": [
-                "results\\RoombaAgent5\\RoombaAgent\\RoombaAgent-247187.pt"
+                "results\\RoombaAgentHarderPenalty\\RoombaAgent\\RoombaAgent-145099.pt"
             ]
         }
     },

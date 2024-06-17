@@ -9,15 +9,24 @@
                 "auxillary_file_paths": [
                     "results\\RoombaAgent3\\RoombaAgent\\RoombaAgent-17904.pt"
                 ]
+            },
+            {
+                "steps": 100046,
+                "file_path": "results\\RoombaAgent3\\RoombaAgent\\RoombaAgent-100046.onnx",
+                "reward": -0.15300002694129944,
+                "creation_time": 1718486317.7765176,
+                "auxillary_file_paths": [
+                    "results\\RoombaAgent3\\RoombaAgent\\RoombaAgent-100046.pt"
+                ]
             }
         ],
         "final_checkpoint": {
-            "steps": 17904,
+            "steps": 100046,
             "file_path": "results\\RoombaAgent3\\RoombaAgent.onnx",
-            "reward": null,
-            "creation_time": 1718478476.7249105,
+            "reward": -0.15300002694129944,
+            "creation_time": 1718486317.7765176,
             "auxillary_file_paths": [
-                "results\\RoombaAgent3\\RoombaAgent\\RoombaAgent-17904.pt"
+                "results\\RoombaAgent3\\RoombaAgent\\RoombaAgent-100046.pt"
             ]
         }
     },
