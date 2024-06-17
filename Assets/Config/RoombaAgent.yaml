@@ -2,24 +2,24 @@ behaviors:
   RoombaAgent:
     trainer_type: ppo
     hyperparameters:
-      batch_size: 64 # Increased batch size for more stable gradient estimates
-      buffer_size: 2048 # Increased buffer size for better data utilization
-      learning_rate: 1.0e-4 # Slightly lower learning rate for stability
-      beta: 1.0e-4 # Lower beta for less policy variance
-      epsilon: 0.1 # Lower epsilon for more conservative updates
-      lambd: 0.95 # Slightly lower lambda for less bias in GAE
-      num_epoch: 3
+      batch_size: 64
+      buffer_size: 2048
+      learning_rate: 2.5e-4
+      beta: 1.0e-3
+      epsilon: 0.1
+      lambd: 0.95
+      num_epoch: 5
       learning_rate_schedule: linear
       beta_schedule: constant
       epsilon_schedule: linear
     network_settings:
-      normalize: true # Enabling normalization for more stable training
-      hidden_units: 256 # Increased hidden units for more complex policies
-      num_layers: 3
+      normalize: true
+      hidden_units: 256
+      num_layers: 2
     reward_signals:
       extrinsic:
-        gamma: 0.99
+        gamma: 0.98
         strength: 1.0
-    max_steps: 20000000 # Increased max steps for more training time
-    time_horizon: 64
-    summary_freq: 2000
+    max_steps: 10000000
+    time_horizon: 128
+    summary_freq: 1000
