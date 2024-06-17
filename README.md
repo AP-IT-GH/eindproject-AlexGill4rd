@@ -50,8 +50,7 @@ De training van de AI was uitdagend omdat er veel zaken mis konden gaan. We hebb
 
 ![image](https://github.com/AP-IT-GH/eindproject-DevinAI/assets/57497005/5ffc7ac4-cc3f-4eb6-9850-ae953e66980d)
 ![image](https://github.com/AP-IT-GH/eindproject-DevinAI/assets/57497005/4f6d481c-534c-4a24-ad6d-d80aac8c2d29)
-![image](https://github.com/AP-IT-GH/eindproject-DevinAI/assets/57497005/3734cc7e-7e76-4db7-aea4-1462143e23d6)
-
+![image](https://github.com/AP-IT-GH/eindproject-DevinAI/assets/57497005/51e04064-88b8-456b-aa19-f780c83b6ef0)
 
 ### Uitleg Resultaten
 - **Moeilijkheidsgraad:** De training was moeilijk vanwege de complexiteit van de omgeving en de vele mogelijke fouten, zoals botsingen met objecten.
