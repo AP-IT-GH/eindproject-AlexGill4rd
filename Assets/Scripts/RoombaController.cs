@@ -15,9 +15,9 @@ public class RoobmaController : MonoBehaviour
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = vacuumSound;
         audioSource.loop = true;
-        audioSource.volume = 0.3f;
+        audioSource.volume = 0.2f;
         audioSource.minDistance = 0.3f;
-        audioSource.maxDistance = 1.2f;
+        audioSource.maxDistance = 1f;
         audioSource.spatialBlend = 1f;
         audioSource.Play();
     }
@@ -28,12 +28,29 @@ public class RoobmaController : MonoBehaviour
         {
             GameManager.instance.AddAiScore(pointsPerDust);
             PlayRandomPopSound();
+            if (GameManager.instance.isTesting)
+            {
+                other.gameObject.SetActive(false);
+            }
+            else
+            {
+                Destroy(other.gameObject);
+            }
         }
 
         if (other.CompareTag("Bonus"))
         {
             GameManager.instance.AddAiScore(pointsPerBonus);
             PlayBonusPickupSound();
+
+            if (GameManager.instance.isTesting)
+            {
+                other.gameObject.SetActive(false);
+            }
+            else
+            {
+                Destroy(other.gameObject);
+            }
         }
     }
 

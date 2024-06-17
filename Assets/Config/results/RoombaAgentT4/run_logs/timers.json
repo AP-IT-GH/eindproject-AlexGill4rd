@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1718631189",
+        "python_version": "3.9.18 (main, Sep 11 2023, 14:09:26) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\timot\\anaconda3\\envs\\ML\\Scripts\\mlagents-learn RoombaAgent.yaml --run-id=RoombaAgentT4 --force",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1718631286"
+    },
+    "total": 97.5649509,
+    "count": 1,
+    "self": 0.016958599999995272,
+    "children": {
+        "run_training.setup": {
+            "total": 0.1095645999999999,
+            "count": 1,
+            "self": 0.1095645999999999
+        },
+        "TrainerController.start_learning": {
+            "total": 97.4384277,
+            "count": 1,
+            "self": 0.00012980000001050485,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 97.4382648,
+                    "count": 1,
+                    "self": 97.4382648
+                },
+                "TrainerController._save_models": {
+                    "total": 3.309999999601132e-05,
+                    "count": 1,
+                    "self": 3.309999999601132e-05
+                }
+            }
+        }
+    }
+}

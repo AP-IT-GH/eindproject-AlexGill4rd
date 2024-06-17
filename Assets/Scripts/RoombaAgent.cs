@@ -12,8 +12,8 @@ public class RoombaAgent : Agent
 
     private List<GameObject> dustObjects;
     private List<GameObject> bonusObjects;
-    public bool isTesting = true;
 
+    private int collisionCount;
     private void Start()
     {
         this.transform.localPosition = startingPosition;
@@ -25,9 +25,14 @@ public class RoombaAgent : Agent
     public override void OnEpisodeBegin()
     {
         this.transform.localPosition = startingPosition;
+        this.collisionCount = 0;
         foreach (var dust in dustObjects)
         {
             dust.SetActive(true);
+        }
+        foreach (var bonus in bonusObjects)
+        {
+            bonus.SetActive(true);
         }
     }
 
@@ -61,6 +66,9 @@ public class RoombaAgent : Agent
     public override void Heuristic(in ActionBuffers actionsOut)
     {
         var continuousActionsOut = actionsOut.ContinuousActions;
+      
+
+
         continuousActionsOut[0] = Input.GetAxis("Vertical");
         continuousActionsOut[1] = Input.GetAxis("Horizontal");
     }
@@ -69,14 +77,29 @@ public class RoombaAgent : Agent
     {
         if (other.CompareTag("Dust"))
         {
-            other.gameObject.SetActive(false);
             SetReward(0.02f);
+            if (GameManager.instance.isTesting)
+            {
+                other.gameObject.SetActive(false);
+            }
+            else
+            {
+                Destroy(other.gameObject);
+            }
         }
         if (other.CompareTag("Bonus"))
         {
-            other.gameObject.SetActive(false);
             SetReward(1f);
+            if (GameManager.instance.isTesting)
+            {
+                other.gameObject.SetActive(false);
+            }
+            else
+            {
+                Destroy(other.gameObject);
+            }
         }
+        
 
     }
 
