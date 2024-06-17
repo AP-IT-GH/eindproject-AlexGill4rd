@@ -9,9 +9,10 @@ public class RoombaAgent : Agent
     public float speedMultiplier = 0.1f;
     public float rotationMultiplier = 5f;
     public Vector3 startingPosition; // Define starting position in the Unity Editor
-
+    public int maxCollision = 3;
     private List<GameObject> dustObjects;
 
+    private int collisionCount;
     private void Start()
     {
         // Initialize agent at the starting position
@@ -29,6 +30,7 @@ public class RoombaAgent : Agent
     public override void OnEpisodeBegin()
     {
         this.transform.localPosition = startingPosition;
+        this.collisionCount = 0;
         foreach (var dust in dustObjects)
         {
             dust.SetActive(true);
@@ -87,8 +89,10 @@ public class RoombaAgent : Agent
     {
         if (!collision.gameObject.CompareTag("Ground"))
         {
-            SetReward(-0.5f);
-            EndEpisode();
+            collisionCount++;
+            AddReward(-0.5f); // Larger penalty for collisions with obstacles
+
+            if (collisionCount >= maxCollision) EndEpisode();
         }
     }
 }
