@@ -13,9 +13,6 @@ public class RoombaAgent : Agent
     private List<GameObject> dustObjects;
     private List<GameObject> bonusObjects;
 
-    private int collisionCount;
-
-    private bool started = false;
 
     private void Start()
     {
@@ -24,16 +21,10 @@ public class RoombaAgent : Agent
         dustObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("Dust"));
         bonusObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("Bonus"));
 
-        GameManager.instance.onRoundStarted.AddListener(OnRoundStarted);
-    }
-    public void OnRoundStarted()
-    {
-        this.started = true;
     }
     public override void OnEpisodeBegin()
     {
         this.transform.localPosition = startingPosition;
-        this.collisionCount = 0;
         foreach (var dust in dustObjects)
         {
             dust.SetActive(true);
