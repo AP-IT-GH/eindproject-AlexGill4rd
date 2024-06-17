@@ -4,6 +4,7 @@ using UnityEngine.XR;
 public class VacuumController : MonoBehaviour
 {
     public int pointsPerDust = 1; // Points to add per dust particle
+    public int pointsPerBonus = 200; // Points to add per dust particle
     public AudioClip vacuumSound; // Sound clip for the vacuum cleaner
     private AudioSource audioSource;
     private bool isHoldingVacuum = false;
@@ -48,6 +49,12 @@ public class VacuumController : MonoBehaviour
         if (other.CompareTag("Dust") && isHoldingVacuum && device.TryGetFeatureValue(CommonUsages.triggerButton, out triggerValue) && triggerValue)
         {
             GameManager.instance.AddScore(pointsPerDust);
+            Destroy(other.gameObject);
+        }
+
+        if (other.CompareTag("Bonus") && isHoldingVacuum && device.TryGetFeatureValue(CommonUsages.triggerButton, out triggerValue) && triggerValue)
+        {
+            GameManager.instance.AddScore(pointsPerBonus);
             Destroy(other.gameObject);
         }
     }
