@@ -8,7 +8,7 @@ public class RoombaAgent : Agent
 {
     public float speedMultiplier = 0.1f;
     public float rotationMultiplier = 5f;
-    public Vector3 startingPosition; // Define starting position in the Unity Editor
+    public Vector3 startingPosition;
 
     private List<GameObject> dustObjects;
 
