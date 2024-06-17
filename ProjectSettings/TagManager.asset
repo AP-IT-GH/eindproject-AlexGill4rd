@@ -11,6 +11,7 @@ TagManager:
   - Vacuum
   - Dust
   - Ground
+  - Bonus
   layers:
   - Default
   - TransparentFX
