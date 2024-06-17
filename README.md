@@ -153,7 +153,7 @@ De resultaten van onze training laten zien dat, ondanks de complexiteit, machine
 In de toekomst willen we:
 - Meer complexe objecten en kamers toevoegen voor een uitdagendere spelervaring.
 - De AI verder optimaliseren voor nog betere prestaties.
-- Extra features zoals multiplayer en verschillende spelmodi implementeren.
+- Extra features zoals verschillende spelmodus implementeren.
 
 ### Gebruikte Bronnen en Assets
 - **Assets voor de map, stofzuiger en Roomba-model:**
