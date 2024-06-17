@@ -57,6 +57,9 @@ De training van de AI was uitdagend omdat er veel zaken mis konden gaan. We hebb
 - **Parameters en Instellingen:** We hebben geëxperimenteerd met het aantal raycasts, de beloningswaarden, en de configuratie van de neural network layers.
 - **Optimalisatie:** Uiteindelijk hebben we een set parameters gevonden die de AI in staat stelde om efficiënt stof op te zuigen en obstakels te vermijden.
 
+### Beloningen
++0.02 per opgezogen stofdeel, -1 bij botsing met een object, -0.001 per bewegingseenheid.
+
 ## Stap 3: SuckRush Speltutorial
 
 Welkom bij de SuckRush speltutorial! In deze handleiding leggen we stap voor stap uit hoe je de game speelt en het meeste plezier haalt uit je VR-stofzuigervaring. Volg de onderstaande stappen om het spel te begrijpen en succesvol tegen de AI Roomba te spelen.
