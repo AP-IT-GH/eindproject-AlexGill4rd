@@ -14,6 +14,7 @@ public class RoombaAgent : Agent
     private List<GameObject> bonusObjects;
     public bool isTesting = true;
 
+    private int collisionCount;
     private void Start()
     {
         this.transform.localPosition = startingPosition;
@@ -25,6 +26,7 @@ public class RoombaAgent : Agent
     public override void OnEpisodeBegin()
     {
         this.transform.localPosition = startingPosition;
+        this.collisionCount = 0;
         foreach (var dust in dustObjects)
         {
             dust.SetActive(true);
